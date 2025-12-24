@@ -1,35 +1,23 @@
-🤖 AI Chatbot Mentor (Streamlit + LangChain)
-
+# 🤖 AI Chatbot Mentor (Streamlit + LangChain)
 AI Chatbot Mentor is a module-specific intelligent learning assistant built using Streamlit and LangChain.
 Unlike generic chatbots, this application strictly responds only within the selected learning module, ensuring focused, relevant, and distraction-free guidance.
 
-🚀 Features
-
+## 🚀 Features
 🔹 Module-based mentoring (Python, SQL, ML, EDA, etc.)
-
 🔹 Context-aware conversational responses
-
 🔹 Strict domain control per module
-
 🔹 Interactive Streamlit UI
-
 🔹 Session-based chat history
-
 🔹 Option to reset or switch learning modules
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+- Frontend / UI: Streamlit
+- LLM Orchestration: LangChain
+- Language Model: Gemini (Google Generative AI)
+- Backend: Python
+- Version Control: Git & GitHub
 
-Frontend / UI: Streamlit
-
-LLM Orchestration: LangChain
-
-Language Model: Gemini (Google Generative AI)
-
-Backend: Python
-
-Version Control: Git & GitHub
-
-📁 Project Structure
+## 📁 Project Structure
 AI-Mentor/
 ├── chatbot/
 │   ├── app.py
@@ -40,76 +28,28 @@ AI-Mentor/
 ├── README.md
 ├── requirements.txt
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/<your-username>/AI-Chatbot-Mentor.git
-cd AI-Chatbot-Mentor
 
-2️⃣ Create a virtual environment
-python -m venv venv
+## 🧠 How It Works
+- User selects a learning module
+- Chatbot restricts responses to the chosen domain
+- LangChain manages prompt context and conversation flow
+- Responses are generated using Gemini LLM
+- Session state preserves chat history until reset
 
+## 🔐 Security & Best Practices
+- API keys stored using environment variables
+- Virtual environment excluded via .gitignore
+- Clean Git history with meaningful commits
 
-Activate it:
+## 📌 Use Cases
+- Students learning technical subjects
+- Focused interview preparation
+- Guided self-learning
+- AI-assisted mentoring platforms
 
-Windows
-
-venv\Scripts\activate
-
-
-Mac / Linux
-
-source venv/bin/activate
-
-3️⃣ Install dependencies
-pip install -r requirements.txt
-
-4️⃣ Set environment variables
-
-Create a .env file:
-
-GOOGLE_API_KEY=your_gemini_api_key_here
-
-5️⃣ Run the Streamlit app
-streamlit run chatbot/app.py
-
-🧠 How It Works
-
-User selects a learning module
-
-Chatbot restricts responses to the chosen domain
-
-LangChain manages prompt context and conversation flow
-
-Responses are generated using Gemini LLM
-
-Session state preserves chat history until reset
-
-🔐 Security & Best Practices
-
-API keys stored using environment variables
-
-Virtual environment excluded via .gitignore
-
-Clean Git history with meaningful commits
-
-📌 Use Cases
-
-Students learning technical subjects
-
-Focused interview preparation
-
-Guided self-learning
-
-AI-assisted mentoring platforms
-
-📈 Future Enhancements
-
-User authentication
-
-Chat export feature
-
-Module-wise quizzes
-
-Multi-LLM support
-
-Deployment on Streamlit Cloud / Hugging Face Spaces
+## 📈 Future Enhancements
+- User authentication
+- Chat export feature
+- Module-wise quizzes
+- Multi-LLM support
+- Deployment on Streamlit Cloud / Hugging Face Spaces
