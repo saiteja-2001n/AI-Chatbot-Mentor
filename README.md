@@ -2,6 +2,8 @@
 AI Chatbot Mentor is a module-specific intelligent learning assistant built using Streamlit and LangChain.
 Unlike generic chatbots, this application strictly responds only within the selected learning module, ensuring focused, relevant, and distraction-free guidance.
 
+## Live App(Hugging Face): https://lnkd.in/gBmZc77k
+
 ## 🚀 Features
 🔹 Module-based mentoring (Python, SQL, ML, EDA, etc.)
 🔹 Context-aware conversational responses
